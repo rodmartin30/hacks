@@ -1,0 +1,14 @@
+{
+  "name":"arjun",
+  "link":"https://github.com/s0md3v/Arjun",
+  "short_desc":"",
+  "long_desc":"",
+  "helper":"",
+  "example":"arjun.py -u http://example.com/path --headers \"Cookie: NAME1=VAL1\"",
+  "examples": [
+      {
+        "desc":"",
+        "command":""
+      },
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name":"ffuf",
+  "link":"https://github.com/ffuf/ffuf",
+  "short_desc":"A fast web fuzzer written in Go. To define the test case for ffuf, use the keyword FUZZ anywhere in the URL (-u), headers (-H), or POST data (-d).",
+  "long_desc":"",
+  "example":"ffuf -s -w WORDLIST_PATH -u https://example.com/FUZZ",
+  "examples": [
+      {
+        "desc":"Add cookies.",
+        "command":"-b \"NAME1=VAL1; NAME2;VAL2\""
+      },
+      {
+        "desc":"POST method with data.",
+        "command":"-X POST -d \"name=rodmartin&pass=123\""
+      },
+      {
+        "desc":"Output.",
+        "command":"-o OUT_PATH"
+      }
+  ]
+}

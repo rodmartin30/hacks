@@ -1,0 +1,9 @@
+{
+  "name":"eyewitness",
+  "link":"https://github.com/FortyNorthSecurity/EyeWitness",
+  "short_desc":"EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known.",
+  "long_desc":"",
+  "helper":"",
+  "example":"eyewitness -f urls.txt --web",
+  "examples": []
+}
