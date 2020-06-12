@@ -3,10 +3,11 @@
 import sys
 import json
 
-TOOLS_PATH = 'tools/'
+TOOLS_PATH = '/home/rodmartin/bb/hacks/examples/tools/'
 tools = ['ffuf',
          'hakrawler',
-         'eyewitness']
+         'eyewitness',
+         'arjun']
 
 def dprint(tool_name):
     """
